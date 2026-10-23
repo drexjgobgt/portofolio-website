@@ -12,3 +12,6 @@ portfolio/
 node_modules/
 .vercel/
 *.log
+
+.vercel
+.env*
