@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rafif Syandana — Software &amp; Web Developer, Medan</title>
+<meta name="description" content="Rafif Syandana, software dan web developer dari Medan. Membangun sistem pelayanan publik, CRM dan e-commerce untuk UMKM, bot realtime, sampai utility desktop Rust.">
+<meta name="theme-color" content="#0a0507">
+<meta name="color-scheme" content="dark">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Rafif Syandana — Software &amp; Web Developer">
+<meta property="og:description" content="Sistem yang dipakai orang, bukan cuma demo. Portofolio proyek web, tools, dan eksperimen.">
+<meta property="og:image" content="assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Ilustrasi senja dengan tulisan: Sistem yang dipakai orang, bukan cuma demo.">
+<meta property="og:locale" content="id_ID">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="assets/og.png">
+<link rel="icon" href="assets/brand/mark.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;500;600;700&amp;family=Instrument+Serif:ital@0;1&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Rafif Syandana",
+  "alternateName": "DRexx",
+  "jobTitle": "Software and Website Developer",
+  "address": { "@type": "PostalAddress", "addressLocality": "Medan", "addressRegion": "Sumatera Utara", "addressCountry": "ID" },
+  "sameAs": ["https://github.com/drexjgobgt", "https://www.linkedin.com/in/rafif-syandana-84302a367/"]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#karya">Lewati ke karya</a>
+<div class="progress" id="progress" aria-hidden="true"></div>
+
+<nav class="nav" id="nav" aria-label="Navigasi utama">
+  <div class="wrap nav__in">
+    <a class="brand" href="#atas" aria-label="Rafif Syandana, ke atas">
+      <img src="assets/brand/mark.svg" width="26" height="26" alt="">
+      <span><span class="slash">/</span><b>rafif</b></span>
+    </a>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="#karya">Karya</a></li>
+      <li><a href="#tentang">Tentang</a></li>
+      <li><a href="#keahlian">Keahlian</a></li>
+      <li><a href="#jejak">Jejak</a></li>
+      <li><a href="#kontak">Kontak</a></li>
+    </ul>
+    <div class="nav__cta">
+      <a class="ghost" href="https://github.com/drexjgobgt" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a class="btn btn--solid" href="#kontak">Hubungi saya</a>
+    </div>
+    <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="sheet" aria-label="Buka menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+<div class="sheet" id="sheet">
+  <a href="#karya">Karya</a>
+  <a href="#tentang">Tentang</a>
+  <a href="#keahlian">Keahlian</a>
+  <a href="#jejak">Jejak</a>
+  <a href="#kontak">Kontak</a>
+  <a class="btn btn--solid" href="https://github.com/drexjgobgt" target="_blank" rel="noopener noreferrer">GitHub</a>
+</div>
+
+<main id="atas">
+  <!-- ================= HERO ================= -->
+  <header class="hero" id="hero">
+    <div class="hero__media">
+      <img class="hero__art" src="assets/hero.svg" width="1600" height="900"
+           alt="Ilustrasi senja: seorang musafir berjubah dan bertopi lebar berdiri di punggung bukit, di bawah bulan purnama dan langit merah yang berlapis awan.">
+    </div>
+    <div class="hero__scrim" aria-hidden="true"></div>
+    <div class="hero__vign" aria-hidden="true"></div>
+    <div class="hero__grain" aria-hidden="true"></div>
+    <div class="hero__spot" id="spot" aria-hidden="true"></div>
+
+    <div class="wrap hero__inner">
+      <p class="eyebrow" data-reveal>
+        <span class="pulse" aria-hidden="true"></span>
+        Medan, Indonesia
+        <span aria-hidden="true">·</span>
+        <span data-clock>--:--</span> WIB
+      </p>
+
+      <h1 data-reveal style="--i:1">
+        Sistem yang <em>dipakai orang</em>,<br>bukan cuma demo.
+      </h1>
+
+      <p class="hero__sub" data-reveal style="--i:2">
+        Saya <b>Rafif Syandana</b>, software &amp; web developer dari Medan. Saya membangun
+        aplikasi untuk pelayanan publik dan UMKM — pelaporan warga, CRM, toko online —
+        sampai utility desktop berbahasa Rust.
+      </p>
+
+      <div class="pill" id="pill" data-reveal style="--i:3">
+        <code>github.com/drexjgobgt</code>
+        <button class="copy" type="button" id="copyBtn" title="Salin alamat GitHub"
+                data-copy="https://github.com/drexjgobgt" aria-label="Salin alamat GitHub">
+          <svg class="cl" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="9" y="9" width="11" height="11" rx="2.5"></rect>
+            <path d="M6 15H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v1"></path>
+          </svg>
+          <svg class="ok" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M20 6 9 17l-5-5"></path>
+          </svg>
+        </button>
+      </div>
+
+      <div class="hero__actions" data-reveal style="--i:4">
+        <a class="btn btn--solid" href="#karya">
+          Lihat karya
+          <span class="btn__i" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M19 12l-7 7-7-7"></path></svg>
+          </span>
+        </a>
+        <a class="btn" href="https://www.linkedin.com/in/rafif-syandana-84302a367/" target="_blank" rel="noopener noreferrer">
+          LinkedIn
+          <span class="btn__i" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"></path></svg>
+          </span>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero__foot">
+      <span class="scroller" aria-hidden="true"></span>
+      <p class="hero__cap">
+        Halaman ini ditulis dengan HTML, CSS, dan JavaScript polos tanpa framework.
+        Seluruh ilustrasi digenerate sebagai SVG lewat <b>9router</b>.
+      </p>
+    </div>
+  </header>
+
+  <!-- ================= MARQUEE ================= -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track" id="marquee"></div>
+  </div>
+
+  <!-- ================= KARYA ================= -->
+  <section class="section" id="karya" aria-labelledby="karya-h">
+    <div class="wrap">
+      <div class="head">
+        <div>
+          <p class="overline" data-reveal>01 — Karya terpilih</p>
+          <h2 class="h2" id="karya-h" data-reveal style="--i:1;margin-top:18px">
+            Enam proyek, <em>enam masalah nyata</em>.
+          </h2>
+        </div>
+        <p class="lede" data-reveal style="--i:2">
+          Semuanya bisa dibuka publik di GitHub. Filternya bukan hiasan — klik untuk
+          melihat mana yang web app, mana yang tool, dan mana yang bot realtime.
+        </p>
+      </div>
+
+      <div class="filters" role="group" aria-label="Filter kategori proyek" data-reveal>
+        <button type="button" data-filter="all" aria-pressed="true">Semua <span aria-hidden="true">06</span></button>
+        <button type="button" data-filter="web" aria-pressed="false">Web app</button>
+        <button type="button" data-filter="tool" aria-pressed="false">Tool &amp; utility</button>
+        <button type="button" data-filter="bot" aria-pressed="false">Bot &amp; realtime</button>
+      </div>
+
+      <div class="work-grid" id="workGrid" data-reveal style="--i:1"></div>
+
+      <div class="repos" data-reveal>
+        <div class="repos__row" style="display:block;padding-bottom:14px">
+          <span class="overline" style="color:var(--faint)">Repo lain di GitHub</span>
+        </div>
+        <a class="repos__row" href="https://github.com/drexjgobgt/pocoTimer---Podomoro-Timer" target="_blank" rel="noopener noreferrer">
+          <span class="repos__name">pocoTimer <small>React · PWA</small></span>
+          <span class="repos__desc">Timer Pomodoro bergaya pastel: progress ring, heatmap produktivitas, streak, dan reminder browser.</span>
+        </a>
+        <a class="repos__row" href="https://github.com/drexjgobgt/makeAconv" target="_blank" rel="noopener noreferrer">
+          <span class="repos__name">makeAconv <small>Socket.io</small></span>
+          <span class="repos__desc">Ruang chat realtime untuk berbagi dan mengonversi file, lengkap dengan presence online/offline dan notifikasi.</span>
+        </a>
+        <a class="repos__row" href="https://github.com/drexjgobgt/SI-Mawa" target="_blank" rel="noopener noreferrer">
+          <span class="repos__name">SI-Mawa <small>PHP · MySQL</small></span>
+          <span class="repos__desc">Manajemen data mahasiswa: login bcrypt, CRUD dengan upload foto, filter jurusan, export PDF dan Excel.</span>
+        </a>
+        <a class="repos__row" href="https://github.com/drexjgobgt?tab=repositories" target="_blank" rel="noopener noreferrer">
+          <span class="repos__name">Semua repo <small>12 publik</small></span>
+          <span class="repos__desc">Lihat seluruh repositori dan eksperimen lain di profil GitHub.</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TENTANG ================= -->
+  <section class="section" id="tentang" aria-labelledby="tentang-h">
+    <div class="wrap">
+      <div class="head">
+        <div>
+          <p class="overline" data-reveal>02 — Tentang</p>
+          <h2 class="h2" id="tentang-h" data-reveal style="--i:1;margin-top:18px">
+            Suka bagian yang <em>jarang terlihat</em>.
+          </h2>
+        </div>
+      </div>
+
+      <div class="about">
+        <figure class="portrait" data-reveal style="margin:0">
+          <img src="assets/brand/avatar.svg" width="720" height="900"
+               alt="Siluet seorang musafir bertopi lebar membelakangi bulan, dengan cahaya jingga di tepi siluetnya.">
+          <figcaption class="portrait__tag">
+            <span>Rafif Syandana</span>
+            <b id="clock2">--:-- WIB</b>
+          </figcaption>
+        </figure>
+
+        <div class="about__body" data-reveal style="--i:1">
+          <p>
+            Saya mengerjakan produk dari sisi yang paling berdampak: <strong>alur status</strong>,
+            <strong>SLA</strong>, sinkronisasi data, dan keputusan kecil yang membuat aplikasi tetap
+            enak dipakai ketika datanya berantakan. Bukan hanya layar yang bagus di screenshot.
+          </p>
+          <p>
+            Sistem pengaduan warga yang saya bangun harus mengarahkan laporan ke dinas yang tepat
+            dan mengukur apakah penanganannya tepat waktu. CRM dan toko online untuk UMKM harus
+            selesai lebih cepat dari catatan buku. Dan ClipFlow harus merekam gameplay tanpa
+            menjatuhkan frame rate.
+          </p>
+          <p>
+            Saya nyaman berpindah lapisan: React dan Tailwind di depan, Node/Express atau PHP native
+            di belakang, PostgreSQL/MySQL/MongoDB di penyimpanan, lalu sesekali turun ke Rust dan
+            Windows API ketika masalahnya menuntut performa.
+          </p>
+
+          <dl class="facts">
+            <div><dt>Berbasis</dt><dd><b>Medan</b>, Sumatera Utara — GMT+7</dd></div>
+            <div><dt>Fokus</dt><dd>Aplikasi web untuk <b>pelayanan publik</b> dan <b>UMKM</b></dd></div>
+            <div><dt>Sehari-hari</dt><dd>React &amp; Tailwind, Node/Express, PostgreSQL, PHP native</dd></div>
+            <div><dt>Eksperimen</dt><dd>Rust &amp; Tauri, bot Discord, computer vision di browser</dd></div>
+            <div><dt>Sekarang</dt><dd>Magang <b>Customer Relations</b> di PDAM Tirtanadi Sumatera Utara</dd></div>
+          </dl>
+
+          <div class="stat-row">
+            <div class="stat"><b>12</b><span>Repo publik</span></div>
+            <div class="stat"><b>6</b><span>Proyek unggulan</span></div>
+            <div class="stat"><b>5</b><span>Bahasa dipakai</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= KEAHLIAN ================= -->
+  <section class="section" id="keahlian" aria-labelledby="keahlian-h">
+    <div class="wrap">
+      <div class="head">
+        <div>
+          <p class="overline" data-reveal>03 — Keahlian</p>
+          <h2 class="h2" id="keahlian-h" data-reveal style="--i:1;margin-top:18px">
+            Tumpukan alat, <em>dengan buktinya</em>.
+          </h2>
+        </div>
+        <p class="lede" data-reveal style="--i:2">
+          Daftar ini saya susun dari README dan riwayat repo publik, bukan dari daftar keinginan.
+        </p>
+      </div>
+
+      <div class="stack" data-reveal>
+        <div class="stack__row">
+          <span class="stack__k">Frontend</span>
+          <span class="stack__v"><b>React 18</b> · Tailwind CSS · Bootstrap 5 · Vite · PWA
+            <i>— dipakai di SIPW, e-commerce UMKM, pocoTimer, makeAconv</i></span>
+        </div>
+        <div class="stack__row">
+          <span class="stack__k">Backend</span>
+          <span class="stack__v"><b>Node.js / Express</b> · PHP native 8 · REST API · JWT auth · session bcrypt · Socket.io
+            <i>— API dan autentikasi di SIPW, makeAconv, SI-Mawa</i></span>
+        </div>
+        <div class="stack__row">
+          <span class="stack__k">Data</span>
+          <span class="stack__v"><b>PostgreSQL 14</b> · MySQL 8 · MongoDB · relasi &amp; agregasi laporan
+            <i>— penelusuran status dan pemantauan SLA</i></span>
+        </div>
+        <div class="stack__row">
+          <span class="stack__k">Desktop &amp; sistem</span>
+          <span class="stack__v"><b>Rust</b> · Tauri v2 · Direct3D 11 desktop duplication · Media Foundation · WASAPI
+            <i>— ring buffer dan encoder hardware di ClipFlow</i></span>
+        </div>
+        <div class="stack__row">
+          <span class="stack__k">Integrasi</span>
+          <span class="stack__v">Midtrans &amp; QRIS · WhatsApp deep link · Cloudinary · Resend · discord.js v14 · TikTok Live Connector
+            <i>— pembayaran, notifikasi, dan kontrol lintas platform</i></span>
+        </div>
+        <div class="stack__row">
+          <span class="stack__k">Praktik</span>
+          <span class="stack__v">Desain basis data relasional · validasi input · export Excel/PDF · UI responsif · alur kerja Git
+            <i>— hal-hal yang menentukan aplikasi bertahan dipakai</i></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= JEJAK ================= -->
+  <section class="section" id="jejak" aria-labelledby="jejak-h">
+    <div class="wrap">
+      <div class="head">
+        <div>
+          <p class="overline" data-reveal>04 — Jejak</p>
+          <h2 class="h2" id="jejak-h" data-reveal style="--i:1;margin-top:18px">
+            Garis waktu <em>dari commit</em>.
+          </h2>
+        </div>
+        <p class="lede" data-reveal style="--i:2">
+          Urutan ini saya susun dari tanggal repo publik dan pengalaman kerja yang tercantum di profil profesional.
+        </p>
+      </div>
+
+      <ol class="trace">
+        <li class="trace__item" data-reveal>
+          <span class="trace__year">Sekarang</span>
+          <div>
+            <h3>Magang Customer Relations — PDAM Tirtanadi Sumatera Utara</h3>
+            <p>Menangani komunikasi pelanggan sekaligus menerjemahkan keluhan berulang menjadi kebutuhan produk. Banyak keputusan desain SIPW berangkat dari sini: status yang jelas dan estimasi waktu yang jujur.</p>
+            <ul class="trace__tags"><li>Pelayanan publik</li><li>Komunikasi</li><li>Analisis kebutuhan</li></ul>
+          </div>
+        </li>
+        <li class="trace__item" data-reveal style="--i:1">
+          <span class="trace__year">2026</span>
+          <div>
+            <h3>ClipFlow — instant replay untuk Windows</h3>
+            <p>Utility desktop Rust + Tauri: frame game di-encode di GPU ke ring buffer RAM, lalu 15–120 detik terakhir disimpan sebagai MP4 lewat satu hotkey tanpa keluar dari game.</p>
+            <ul class="trace__tags"><li>Rust</li><li>Tauri v2</li><li>Direct3D 11</li><li>Zero-copy</li></ul>
+          </div>
+        </li>
+        <li class="trace__item" data-reveal style="--i:2">
+          <span class="trace__year">2025 — 2026</span>
+          <div>
+            <h3>Sistem Informasi Pengaduan Warga</h3>
+            <p>Platform pelaporan warga dengan penelusuran status, disposisi tugas lintas OPD, dan pemantauan SLA. Menghubungkan masyarakat dengan dinas seperti DLH dan PUPR dalam satu alur yang terukur.</p>
+            <ul class="trace__tags"><li>React 18</li><li>Node 18</li><li>PostgreSQL 14</li><li>SLA</li></ul>
+          </div>
+        </li>
+        <li class="trace__item" data-reveal style="--i:3">
+          <span class="trace__year">2025</span>
+          <div>
+            <h3>Perangkat untuk UMKM &amp; eksperimen realtime</h3>
+            <p>Mini CRM untuk menertibkan pelanggan dan follow-up, toko online distributor gas dengan Midtrans/QRIS, bot musik Discord yang dikendalikan dari live chat TikTok, serta eksperimen pelacakan tangan menjadi voxel 3D.</p>
+            <ul class="trace__tags"><li>UMKM</li><li>Socket.io</li><li>TypeScript</li><li>Computer vision</li></ul>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ================= KONTAK ================= -->
+  <section class="contact" id="kontak" aria-labelledby="kontak-h">
+    <div class="contact__glow" aria-hidden="true"></div>
+    <div class="wrap contact__in">
+      <p class="overline" data-reveal style="justify-content:center">05 — Kontak</p>
+      <h2 id="kontak-h" data-reveal style="--i:1">Punya sistem yang perlu <em>dibangun</em>?</h2>
+      <p data-reveal style="--i:2">
+        Ceritakan masalahnya, bukan hanya fiturnya. Saya paling senang mengerjakan alur yang
+        rumit — persetujuan berlapis, status yang berubah, data yang datang dari banyak tempat.
+      </p>
+      <div class="actions" data-reveal style="--i:3">
+        <a class="btn btn--solid" href="https://github.com/drexjgobgt" target="_blank" rel="noopener noreferrer">
+          GitHub
+          <span class="btn__i" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"></path></svg>
+          </span>
+        </a>
+        <a class="btn" href="https://www.linkedin.com/in/rafif-syandana-84302a367/" target="_blank" rel="noopener noreferrer">
+          LinkedIn
+          <span class="btn__i" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"></path></svg>
+          </span>
+        </a>
+        <button class="btn btn--ghost" type="button" data-copy="https://github.com/drexjgobgt">
+          Salin alamat GitHub
+          <span class="btn__i" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="11" height="11" rx="2.5"></rect><path d="M6 15H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v1"></path></svg>
+          </span>
+        </button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__in">
+      <span class="footer__brand">
+        <img src="assets/brand/mark.svg" width="22" height="22" alt="">
+        <span>Rafif Syandana — Medan, <span id="year">2026</span></span>
+      </span>
+      <nav class="footer__links" aria-label="Tautan eksternal">
+        <a href="https://github.com/drexjgobgt" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/rafif-syandana-84302a367/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="#karya">Karya</a>
+        <a href="#atas">Kembali ke atas</a>
+      </nav>
+    </div>
+    <div class="colophon">
+      <span>Ditulis tangan: HTML + CSS + JS, tanpa framework. <b>Tipografi:</b> Familjen Grotesk, Instrument Serif, JetBrains Mono.</span>
+      <span><b>Ilustrasi &amp; thumbnail:</b> SVG hasil generate model di 9router. <b>Data:</b> GitHub &amp; LinkedIn publik.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="app.js" defer></script>
+</body>
+</html>

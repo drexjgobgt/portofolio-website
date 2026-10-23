@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <linearGradient id="sky_grad" x1="0" y1="0" x2="0" y2="900" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#150711"/>
+    <stop offset="20%" stop-color="#3A0A14"/>
+    <stop offset="42.2%" stop-color="#6B0E1B"/>
+    <stop offset="62.2%" stop-color="#520B16"/>
+    <stop offset="73.3%" stop-color="#7A1018"/>
+    <stop offset="100%" stop-color="#240710"/>
+  </linearGradient>
+  <radialGradient id="moon_glow" cx="800" cy="250" r="340" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#C9A46A" stop-opacity="0.38"/>
+    <stop offset="45%" stop-color="#C9A46A" stop-opacity="0.14"/>
+    <stop offset="100%" stop-color="#C9A46A" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="moon_disc" x1="720" y1="120" x2="880" y2="390" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#F0E2C6"/>
+    <stop offset="78%" stop-color="#E6D3B0"/>
+    <stop offset="100%" stop-color="#DCC094"/>
+  </linearGradient>
+  <linearGradient id="ember_band_grad" x1="0" y1="0" x2="1600" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#E8452B" stop-opacity="0"/>
+    <stop offset="20%" stop-color="#E8452B" stop-opacity="0.45"/>
+    <stop offset="45%" stop-color="#F2603A" stop-opacity="0.9"/>
+    <stop offset="50%" stop-color="#FF8A4C" stop-opacity="1"/>
+    <stop offset="55%" stop-color="#F2603A" stop-opacity="0.9"/>
+    <stop offset="80%" stop-color="#E8452B" stop-opacity="0.45"/>
+    <stop offset="100%" stop-color="#E8452B" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="ember_core_line" x1="0" y1="0" x2="1600" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#FF8A4C" stop-opacity="0"/>
+    <stop offset="28%" stop-color="#FF8A4C" stop-opacity="0.3"/>
+    <stop offset="44%" stop-color="#FFD9A8" stop-opacity="0.9"/>
+    <stop offset="50%" stop-color="#FFE7C7" stop-opacity="1"/>
+    <stop offset="56%" stop-color="#FFD9A8" stop-opacity="0.9"/>
+    <stop offset="72%" stop-color="#FF8A4C" stop-opacity="0.3"/>
+    <stop offset="100%" stop-color="#FF8A4C" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="mist_drift_grad" x1="0" y1="0" x2="1600" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#B75A55" stop-opacity="0"/>
+    <stop offset="25%" stop-color="#8E3A44" stop-opacity="0.14"/>
+    <stop offset="50%" stop-color="#FFD9A8" stop-opacity="0.17"/>
+    <stop offset="75%" stop-color="#8E3A44" stop-opacity="0.14"/>
+    <stop offset="100%" stop-color="#B75A55" stop-opacity="0"/>
+  </linearGradient>
+  <rect width="1600" height="900" fill="url(#sky_grad)"/>
+  <path d="M -50,60 Q 150,45 350,90 Q 200,120 -50,110 Z" fill="#2A0B14" opacity="0.5"/>
+  <path d="M 1250,50 Q 1450,40 1650,80 Q 1500,120 1250,90 Z" fill="#2A0B14" opacity="0.5"/>
+  <ellipse cx="380" cy="140" rx="260" ry="12" fill="#8E1220" opacity="0.38"/>
+  <ellipse cx="1220" cy="155" rx="290" ry="14" fill="#A8182A" opacity="0.42"/>
+  <ellipse cx="260" cy="210" rx="210" ry="10" fill="#A8182A" opacity="0.35"/>
+  <ellipse cx="1340" cy="225" rx="240" ry="11" fill="#8E1220" opacity="0.40"/>
+  <path d="M 500,185 Q 700,172 900,188 Q 720,198 500,185 Z" fill="#8E1220" opacity="0.32"/>
+  <path d="M 750,120 Q 950,110 1120,125 Q 930,135 750,120 Z" fill="#A8182A" opacity="0.30"/>
+  <circle cx="800" cy="250" r="340" fill="url(#moon_glow)"/>
+  <circle cx="800" cy="250" r="148" fill="url(#moon_disc)"/>
+  <path d="M 660,335 Q 780,324 938,340 Q 820,352 660,335 Z" fill="#7A0F1C" opacity="0.55"/>
+  <path d="M 695,366 Q 810,356 908,370 Q 800,379 695,366 Z" fill="#7A0F1C" opacity="0.55"/>
+  <path d="M 0,440 Q 450,420 900,442 T 1600,435 L 1600,458 Q 1150,475 700,455 T 0,462 Z" fill="#7A0F1C" opacity="0.25"/>
+  <path d="M 0,525 Q 500,545 1000,522 T 1600,538 L 1600,560 Q 1100,540 600,562 T 0,550 Z" fill="#7A0F1C" opacity="0.25"/>
+  <path d="M 0,595 Q 380,582 850,600 T 1600,590 L 1600,612 Q 1200,625 750,612 T 0,618 Z" fill="#8E1220" opacity="0.20"/>
+  <rect x="0" y="642" width="1600" height="74" fill="url(#ember_band_grad)" opacity="0.65"/>
+  <path d="M 0,652 Q 350,642 750,654 T 1600,648 L 1600,666 Q 1250,656 800,670 T 0,664 Z" fill="#E8452B" opacity="0.7"/>
+  <path d="M 120,664 Q 520,652 880,666 T 1520,660 L 1460,676 Q 1120,664 780,678 T 160,674 Z" fill="#F2603A" opacity="0.8"/>
+  <path d="M 0,681 Q 400,677 800,678 T 1600,680 L 1600,685 Q 1200,687 800,684 T 0,686 Z" fill="url(#ember_core_line)"/>
+  <path d="M 220,686 Q 560,678 860,688 T 1380,684 L 1320,696 Q 1000,688 680,698 T 260,695 Z" fill="#FF8A4C" opacity="0.6"/>
+  <ellipse cx="800" cy="677" rx="460" ry="2.2" fill="#FFD9A8" opacity="0.16"/>
+  <ellipse cx="760" cy="683" rx="320" ry="1.6" fill="#FFD9A8" opacity="0.15"/>
+  <ellipse cx="860" cy="672" rx="220" ry="1.8" fill="#FFD9A8" opacity="0.14"/>
+  <path d="M 0,730 C 60,725 110,708 165,705 C 215,702 260,722 310,728 C 370,735 420,712 475,700 C 520,689 565,710 615,720 C 665,730 710,715 760,698 C 810,682 855,705 905,718 C 955,730 1000,710 1050,694 C 1100,678 1140,702 1195,722 C 1245,740 1290,718 1340,702 C 1390,688 1435,710 1485,724 C 1535,736 1570,720 1600,715 L 1600,900 L 0,900 Z" fill="#5A1F2E" opacity="0.85"/>
+  <path d="M 0,765 C 70,758 130,742 195,738 C 255,734 300,756 360,768 C 420,778 470,752 530,735 C 585,720 635,745 690,762 C 740,776 785,758 835,742 C 885,728 930,750 985,765 C 1040,778 1085,750 1140,736 C 1190,724 1235,748 1290,766 C 1345,782 1390,760 1445,744 C 1500,730 1550,752 1600,760 L 1600,900 L 0,900 Z" fill="#381324"/>
+  <ellipse cx="480" cy="768" rx="440" ry="12" fill="#8E3A44" opacity="0.15"/>
+  <ellipse cx="1120" cy="774" rx="460" ry="14" fill="#B75A55" opacity="0.13"/>
+  <path d="M 0,805 C 80,798 140,784 210,782 C 275,780 330,808 395,820 C 460,830 515,808 580,792 C 645,778 700,805 760,825 C 800,838 840,838 880,824 C 935,808 985,788 1050,785 C 1115,782 1170,810 1235,822 C 1300,832 1355,805 1420,788 C 1485,774 1545,802 1600,812 L 1600,900 L 0,900 Z" fill="#24101C"/>
+  <ellipse cx="800" cy="788" rx="580" ry="11" fill="url(#mist_drift_grad)"/>
+  <ellipse cx="260" cy="796" rx="310" ry="9" fill="#B75A55" opacity="0.12"/>
+  <ellipse cx="1380" cy="784" rx="340" ry="10" fill="#8E3A44" opacity="0.14"/>
+  <circle cx="342" cy="758" r="1.5" fill="#B3172A"/>
+  <circle cx="347" cy="760" r="1.1" fill="#B3172A"/>
+  <circle cx="510" cy="746" r="1.6" fill="#B3172A"/>
+  <circle cx="915" cy="742" r="1.4" fill="#B3172A"/>
+  <circle cx="1132" cy="752" r="1.8" fill="#B3172A"/>
+  <circle cx="1144" cy="755" r="1.2" fill="#B3172A"/>
+  <circle cx="1380" cy="756" r="1.5" fill="#B3172A"/>
+  <path d="M 560,852 C 610,832 670,819 730,816 C 770,814 830,814 870,816 C 930,819 990,832 1040,854 C 1010,878 955,892 885,894 C 810,897 730,895 650,891 C 595,885 565,870 560,852 Z" fill="#12070E"/>
+  <path d="M 640,824 C 695,818 750,815 800,815 C 850,815 905,818 960,824 C 910,820 855,817 800,817 C 745,817 690,820 640,824 Z" fill="#170A12"/>
+  <path d="M 0,836 C 80,824 160,818 240,826 C 320,834 390,845 470,835 C 520,828 560,838 600,855 L 600,900 L 0,900 Z" fill="#0E0509"/>
+  <path d="M 1600,830 C 1520,816 1440,812 1360,822 C 1280,832 1210,842 1130,834 C 1080,828 1040,840 1000,858 L 1000,900 L 1600,900 Z" fill="#0E0509"/>
+  <path d="M 0,836 C 80,824 160,818 240,826 C 320,834 390,845 470,835 C 520,828 560,838 600,855 L 595,858 C 555,842 518,832 468,839 C 390,849 322,838 242,830 C 162,822 82,828 0,840 Z" fill="#170A12"/>
+  <path d="M 1600,830 C 1520,816 1440,812 1360,822 C 1280,832 1210,842 1130,834 C 1080,828 1040,840 1000,858 L 1005,861 C 1043,844 1082,832 1132,838 C 1210,846 1278,836 1358,826 C 1438,816 1518,820 1600,834 Z" fill="#170A12"/>
+  <rect x="0" y="876" width="1600" height="24" fill="#0A0409"/>
+  <g>
+    <path d="M 800,653 L 848,677 Q 800,683 752,677 Z" fill="#090307"/>
+    <path d="M 790,678 C 789,686 791,693 794,697 C 798,698 803,698 806,697 C 809,693 811,686 810,678 Z" fill="#090307"/>
+    <path d="M 794,697 C 786,701 780,712 778,730 C 776,746 773,760 770,774 C 777,776 786,777 794,775 C 803,773 811,774 817,775 C 820,755 821,734 824,722 C 821,712 815,701 806,697 Z" fill="#090307"/>
+    <ellipse cx="824" cy="718" rx="3.5" ry="5" fill="#090307"/>
+    <path d="M 786,774 C 787,784 787,794 788,802 C 788,808 786,814 785,818 L 795,818 C 795,814 794,807 793,802 C 793,794 792,784 791,774 Z" fill="#090307"/>
+    <path d="M 804,774 C 805,784 806,794 807,802 C 808,808 807,814 806,818 L 816,818 C 816,814 815,807 814,802 C 813,794 812,784 811,774 Z" fill="#090307"/>
+    <polygon points="821.5,662 824,662 833.5,818 831,818" fill="#090307"/>
+  </g>
+</svg>

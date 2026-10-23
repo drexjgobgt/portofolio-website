@@ -6,7 +6,6 @@ build/
 preview/
 prompts/
 tools/
-portfolio/
 
 # Dependencies and local Vercel state
 node_modules/

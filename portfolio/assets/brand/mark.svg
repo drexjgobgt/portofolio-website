@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <linearGradient id="mark-bg" x1="0" y1="4" x2="0" y2="60" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#2A0B14"/>
+    <stop offset="1" stop-color="#7A0F1C"/>
+  </linearGradient>
+  <radialGradient id="mark-glow" cx="32" cy="24" r="18" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#C9A46A" stop-opacity="0.35"/>
+    <stop offset="0.65" stop-color="#C9A46A" stop-opacity="0.12"/>
+    <stop offset="1" stop-color="#C9A46A" stop-opacity="0"/>
+  </radialGradient>
+  <clipPath id="mark-clip">
+    <rect x="4" y="4" width="56" height="56" rx="14"/>
+  </clipPath>
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="url(#mark-bg)"/>
+  <g clip-path="url(#mark-clip)">
+    <circle cx="32" cy="24" r="18" fill="url(#mark-glow)"/>
+    <circle cx="32" cy="24" r="9" fill="#F0E2C6"/>
+    <line x1="4" y1="38" x2="60" y2="38" stroke="#F2603A" stroke-width="0.8"/>
+    <path d="M 4 43 C 12 39.5 20 38.5 28 40.5 C 36 42.5 44 44 52 41.5 C 56 40.5 58 41 60 42 L 60 60 L 4 60 Z" fill="#150A11"/>
+    <path d="M 4 51 C 14 47 24 45.5 34 46.5 C 44 47.5 52 50 60 47.5 L 60 60 L 4 60 Z" fill="#0A0409"/>
+  </g>
+</svg>

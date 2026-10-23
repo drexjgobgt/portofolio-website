@@ -6,7 +6,6 @@ build/
 preview/
 prompts/
 tools/
-portfolio/
 node_modules/
 .vercel/
 *.log

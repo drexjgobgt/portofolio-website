@@ -1,55 +1,79 @@
-# Rafif Syandana — Portfolio
+# Portofolio Rafif Syandana
 
-**Software &amp; web developer · Medan, Indonesia**
+Situs portofolio satu halaman untuk **Rafif Syandana**, software dan web developer dari Medan. Dibangun dengan HTML, CSS, dan JavaScript murni — tanpa framework, tanpa build step, tanpa dependensi runtime.
 
 [Live site](https://rafsyan.vercel.app) · [GitHub](https://github.com/drexjgobgt) · [LinkedIn](https://www.linkedin.com/in/rafif-syandana-84302a367/)
 
-![Rafif Syandana portfolio — desktop preview](assets/readme/preview-desktop.png)
+![Portofolio Rafif Syandana — desktop](assets/readme/preview-desktop.png)
 
-A hand-built portfolio for civic tools, small-business systems, and interfaces that hold up outside the demo. The site is written in plain HTML, CSS, and JavaScript — no framework, no build step.
+## Karya
 
-## Selected work
+Enam proyek unggulan ditampilkan dengan filter kategori:
 
-Six systems are featured: **SIPW**, **ClipFlow**, **Mini CRM**, **Toko Gas**, **makeAconv**, and **SiMawa**. On desktop the project index drives a sticky preview; on mobile the projects become a stacked editorial reel.
+- **SIPW** — sistem informasi pengaduan warga
+- **Mini CRM** — CRM untuk UMKM
+- **ClipFlow** — instant replay Windows berbasis Rust/Tauri
+- **Toko Gas UMKM** — e-commerce distributor dengan Midtrans/QRIS
+- **Kunang-Kunang** — bot musik Discord yang dikendalikan dari live chat TikTok
+- **handTracker3Dvoxel** — eksperimen computer vision di browser
 
-![Selected work section](assets/readme/preview-work.png)
+![Bagian karya](assets/readme/preview-work.png)
 
-## Responsive by default
+## Fitur
 
-The layout, navigation, project presentation, and type scale adapt from a 390 px phone to a wide desktop.
+- Hero ilustrasi senja dengan parallax halus dan sorotan mengikuti kursor
+- Jam WIB langsung di hero, kartu tentang, dan footer
+- Filter proyek dengan `aria-pressed`
+- Tombol salin alamat GitHub dengan feedback toast
+- Navigasi mobile berbentuk sheet
+- Scroll progress bar dan reveal berjenjang
+- Seluruh animasi menghormati `prefers-reduced-motion`
 
-| Mobile | Notes |
-| --- | --- |
-| ![Mobile preview](assets/readme/preview-mobile.png) | Live WIB clock, mobile menu, scroll reveals, and reduced-motion support. |
+<p align="center">
+  <img src="assets/readme/preview-mobile.png" alt="Tampilan mobile portofolio" width="320">
+</p>
 
-## Stack
+## Struktur
 
-- Semantic HTML and custom CSS
-- Vanilla JavaScript for the live Medan clock, project tabs, mobile navigation, and scroll reveals
-- Instrument Sans via Google Fonts
-- Local WebP/PNG assets; no runtime dependencies
-
-## Run locally
-
-Open `index.html` directly in a browser, or serve the folder:
-
-```sh
-python -m http.server 8000
+```text
+portfolio/
+├─ index.html          # struktur halaman + metadata
+├─ style.css           # design system, komponen, animasi
+├─ app.js              # data proyek, filter, jam, parallax, clipboard
+└─ assets/
+   ├─ hero.svg         # ilustrasi senja
+   ├─ og.png           # preview share 1200×630
+   ├─ grain.svg
+   ├─ brand/           # mark dan avatar
+   └─ projects/        # enam thumbnail SVG
 ```
 
-Then visit `http://localhost:8000`.
+Screenshot README berada di `assets/readme/` dan tidak termasuk deployment.
+
+## Menjalankan lokal
+
+Buka `portfolio/index.html` langsung di browser, atau jalankan server lokal dari root repo:
+
+```powershell
+python -m http.server 5500
+# lalu buka http://localhost:5500/portfolio/
+```
+
+Font diambil dari Google Fonts. Saat offline, halaman tetap berjalan dengan font fallback sistem.
 
 ## Deploy
 
-The site is deployed on Vercel as **rafsyan**:
+Situs ini di-deploy ke Vercel sebagai project **rafsyan** dengan root directory `portfolio`.
 
 ```sh
 vercel deploy --prod
 ```
 
-## Credits
+Domain produksi: **https://rafsyan.vercel.app**
 
-- Illustrated avatar from the GitHub profile of [drexjgobgt](https://github.com/drexjgobgt).
-- Medan skyline: “Medan skyline (2022)” by Brm12, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Medan_skyline_(2022).jpg).
-- Hero and social artwork generated with Gemini through 9Router.
-- Project screenshots and covers are drawn from the corresponding repositories and live demo.
+## Data & aset
+
+- Data proyek dan tautan repositori bersumber dari GitHub [`drexjgobgt`](https://github.com/drexjgobgt).
+- Profil profesional merujuk ke [LinkedIn Rafif Syandana](https://www.linkedin.com/in/rafif-syandana-84302a367/).
+- Hero, mark, avatar, thumbnail proyek, dan gambar OG dibuat sebagai SVG melalui 9Router.
+- Tipografi: Familjen Grotesk, Instrument Serif, dan JetBrains Mono melalui Google Fonts.

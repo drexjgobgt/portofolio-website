@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="800" height="520">
+  <linearGradient id="g5_glow" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#E8452B" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#E8452B" stop-opacity="0.22"/>
+  </linearGradient>
+  <linearGradient id="g5_wave" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#E8B45A"/>
+    <stop offset="100%" stop-color="#F2603A"/>
+  </linearGradient>
+  <radialGradient id="g5_fly" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#FF8A4C" stop-opacity="0.3"/>
+    <stop offset="100%" stop-color="#FF8A4C" stop-opacity="0"/>
+  </radialGradient>
+  <rect width="800" height="520" fill="#12070E"/>
+  <rect y="330" width="800" height="42" fill="url(#g5_glow)"/>
+  <rect y="360" width="800" height="3" rx="1.5" fill="#F2603A" opacity="0.85"/>
+  <path d="M0 375 Q200 368 400 373 T800 370 V520 H0 Z" fill="#0A0409"/>
+  <path d="M50 400 H750 M50 422 H750 M50 444 H750 M50 466 H750 M50 488 H750 M50 510 H750" stroke="#F0E2C6" stroke-width="3.2" stroke-linecap="round" stroke-dasharray="0.1 25" opacity="0.07"/>
+  <g fill="url(#g5_wave)">
+    <rect x="160" y="184" width="7" height="32" rx="3.5"/>
+    <rect x="181" y="175" width="7" height="50" rx="3.5"/>
+    <rect x="202" y="162" width="7" height="76" rx="3.5"/>
+    <rect x="223" y="140" width="7" height="120" rx="3.5"/>
+    <rect x="244" y="118" width="7" height="164" rx="3.5"/>
+    <rect x="265" y="105" width="7" height="190" rx="3.5"/>
+    <rect x="286" y="125" width="7" height="150" rx="3.5"/>
+    <rect x="307" y="150" width="7" height="100" rx="3.5"/>
+    <rect x="328" y="135" width="7" height="130" rx="3.5"/>
+    <rect x="349" y="108" width="7" height="184" rx="3.5"/>
+    <rect x="370" y="88" width="7" height="224" rx="3.5"/>
+    <rect x="391" y="100" width="7" height="200" rx="3.5"/>
+    <rect x="412" y="130" width="7" height="140" rx="3.5"/>
+    <rect x="433" y="155" width="7" height="90" rx="3.5"/>
+    <rect x="454" y="138" width="7" height="124" rx="3.5"/>
+    <rect x="475" y="112" width="7" height="176" rx="3.5"/>
+    <rect x="496" y="94" width="7" height="212" rx="3.5"/>
+    <rect x="517" y="118" width="7" height="164" rx="3.5"/>
+    <rect x="538" y="142" width="7" height="116" rx="3.5"/>
+    <rect x="559" y="160" width="7" height="80" rx="3.5"/>
+    <rect x="580" y="145" width="7" height="110" rx="3.5"/>
+    <rect x="601" y="170" width="7" height="60" rx="3.5"/>
+    <rect x="622" y="184" width="7" height="32" rx="3.5"/>
+  </g>
+  <circle cx="175" cy="100" r="16" fill="url(#g5_fly)"/><circle cx="175" cy="100" r="4" fill="#FF8A4C"/>
+  <circle cx="250" cy="70" r="16" fill="url(#g5_fly)"/><circle cx="250" cy="70" r="4" fill="#FF8A4C"/>
+  <circle cx="330" cy="95" r="16" fill="url(#g5_fly)"/><circle cx="330" cy="95" r="4" fill="#FF8A4C"/>
+  <circle cx="385" cy="55" r="16" fill="url(#g5_fly)"/><circle cx="385" cy="55" r="4" fill="#FF8A4C"/>
+  <circle cx="465" cy="80" r="16" fill="url(#g5_fly)"/><circle cx="465" cy="80" r="4" fill="#FF8A4C"/>
+  <circle cx="545" cy="65" r="16" fill="url(#g5_fly)"/><circle cx="545" cy="65" r="4" fill="#FF8A4C"/>
+  <circle cx="615" cy="115" r="16" fill="url(#g5_fly)"/><circle cx="615" cy="115" r="4" fill="#FF8A4C"/>
+  <circle cx="230" cy="275" r="16" fill="url(#g5_fly)"/><circle cx="230" cy="275" r="4" fill="#FF8A4C"/>
+  <circle cx="510" cy="265" r="16" fill="url(#g5_fly)"/><circle cx="510" cy="265" r="4" fill="#FF8A4C"/>
+  <circle cx="135" cy="140" r="2" fill="#FF8A4C" opacity="0.65"/>
+  <circle cx="440" cy="145" r="2" fill="#FF8A4C" opacity="0.65"/>
+  <circle cx="655" cy="90" r="2" fill="#FF8A4C" opacity="0.65"/>
+</svg>
