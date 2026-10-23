@@ -1,0 +1,14 @@
+# Local working artifacts
+.chrome-cdp/
+.chrome-profile/
+.taste-skill/
+build/
+preview/
+prompts/
+tools/
+portfolio/
+
+# Dependencies and local Vercel state
+node_modules/
+.vercel/
+*.log
