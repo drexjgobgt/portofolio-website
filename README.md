@@ -66,7 +66,7 @@ Font diambil dari Google Fonts. Saat offline, halaman tetap berjalan dengan font
 Situs ini di-deploy ke Vercel sebagai project **rafsyan** dengan root directory `portfolio`.
 
 ```sh
-vercel deploy --prod
+vercel deploy --cwd portfolio --prod
 ```
 
 Domain produksi: **https://rafsyan.vercel.app**
